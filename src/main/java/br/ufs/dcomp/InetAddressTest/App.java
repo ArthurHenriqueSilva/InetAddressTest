@@ -15,7 +15,8 @@ public class App
             String name = "google.com";
             InetAddress address = InetAddress.getByName(name); 
             System.out.println( "Name:      "+ name);
-            System.out.println( "Address:   "+ address.getHostAddress());
+            System.out.println("Address: " + address.getHostAddress());
+
         } catch (UnknownHostException e){
             System.out.println(e.getMessage());
         }                
